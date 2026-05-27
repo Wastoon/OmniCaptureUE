@@ -1,0 +1,20 @@
+# UE generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio
+.vs/
+*.sln
+*.VC.db
+*.VC.opendb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Packaging
+*.zip
+*.7z
+*.rar

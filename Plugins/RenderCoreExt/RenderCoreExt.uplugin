@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RenderCoreExt",
+	"Description": "Minimal UE5 Render Extension for Data Export and Python Control",
+	"Category": "Rendering",
+	"CreatedBy": "mengrongye",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RenderCoreExt",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"AdditionalDependencies": [
+										"Engine",
+										"Core",
+										"CoreUObject",
+										"Json",
+										"JsonUtilities",
+										"RenderCore",
+										"RHI",
+										"UMG"
+									  ]
+		}
+	]
+}

@@ -1,0 +1,4 @@
+opencv-python>=4.8.0
+open3d>=0.17.0
+numpy>=1.24.0
+OpenEXR>=1.3.9
