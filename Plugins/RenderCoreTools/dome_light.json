@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "unit": "meter",
+  "blender_version": "4.5.3 LTS",
+  "export_frame": 1,
+
+  "lights": [
+
+    {
+      "name": "key_front",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [-2.5, 0.0, 1.8],
+      "rotation_euler": [0.0, -0.3, 0.0],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 1.0,
+      "area_size_y": 1.0
+    },
+
+    {
+      "name": "key_front_left",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [-1.77, -1.77, 1.8],
+      "rotation_euler": [0.0, -0.3, 0.785],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "key_left",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [0.0, -2.5, 1.8],
+      "rotation_euler": [0.0, -0.3, 1.5708],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "key_back_left",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [1.77, -1.77, 1.8],
+      "rotation_euler": [0.0, -0.3, 2.356],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "key_back",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [2.5, 0.0, 1.8],
+      "rotation_euler": [0.0, -0.3, 3.1415],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "key_back_right",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [1.77, 1.77, 1.8],
+      "rotation_euler": [0.0, -0.3, -2.356],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "key_right",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [0.0, 2.5, 1.8],
+      "rotation_euler": [0.0, -0.3, -1.5708],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "key_front_right",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [-1.77, 1.77, 1.8],
+      "rotation_euler": [0.0, -0.3, -0.785],
+
+      "energy": 50.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.4,
+      "area_size_y": 0.4
+    },
+
+    {
+      "name": "top_front",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [-1.2, 0.0, 3.0],
+      "rotation_euler": [-1.0, 0.0, 0.0],
+
+      "energy": 40.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.6,
+      "area_size_y": 0.6
+    },
+
+    {
+      "name": "top_back",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [1.2, 0.0, 3.0],
+      "rotation_euler": [-1.0, 0.0, 3.1415],
+
+      "energy": 40.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.6,
+      "area_size_y": 0.6
+    },
+
+    {
+      "name": "top_left",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [0.0, -1.2, 3.0],
+      "rotation_euler": [-1.0, 0.0, 1.5708],
+
+      "energy": 40.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.6,
+      "area_size_y": 0.6
+    },
+
+    {
+      "name": "top_right",
+      "type": "AREA",
+      "enabled": true,
+
+      "location": [0.0, 1.2, 3.0],
+      "rotation_euler": [-1.0, 0.0, -1.5708],
+
+      "energy": 40.0,
+
+      "color": [1.0, 1.0, 1.0],
+
+      "use_shadow": true,
+
+      "area_shape": "RECTANGLE",
+
+      "area_size": 0.6,
+      "area_size_y": 0.6
+    }
+  ]
+}
