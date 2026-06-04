@@ -1,5 +1,9 @@
 {
   "version": "1.0",
+  "developer": "mengrongye",
+  "contact": "mengrongye@gmail.com",
+  "copyright": "Copyright (c) 2026 mengrongye. Licensed under Apache License 2.0 unless otherwise stated.",
+  "usage_notice": "Preserve attribution, comply with the repository LICENSE, and cite the developer/project when using this configuration or derived simulation data. Provided without warranty.",
   "unit": "meter",
   "blender_version": "4.5.3 LTS",
   "export_frame": 1,

@@ -1,3 +1,19 @@
+/*
+ * Copyright (c) 2026 mengrongye.
+ *
+ * Author: mengrongye
+ * Contact: mengrongye@gmail.com
+ * Project: OmniCaptureUE / RenderCoreExt
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at:
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 // ============================================
 // 修正版：深度Cubemap采样节点
 // 与RGB材质使用完全相同的UV处理逻辑，确保像素对应

@@ -1,3 +1,19 @@
+/*
+ * Copyright (c) 2026 mengrongye.
+ *
+ * Author: mengrongye
+ * Contact: mengrongye@gmail.com
+ * Project: OmniCaptureUE / RenderCoreExt
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at:
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 // ============================================
 // 正确版：RGB后处理材质
 // 从鱼眼像素坐标计算正常透视图像的UV，用于采样SceneTexture
