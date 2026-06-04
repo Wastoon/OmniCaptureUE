@@ -1,0 +1,607 @@
+{
+	"dome_config":
+	{
+		"radius": 300,
+		"num_cameras": 17,
+		"fov": 90,
+		"layout": "manual",
+		"center_world_pos": [ 0, 0, 0 ]
+	},
+	"cameras": [
+		{
+			"camera_index": 0,
+			"camera_name": "cam_front",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 1, 0, 0, 0 ],
+					[ 0, 1, 0, 0 ],
+					[ 0, 0, 1, 0 ],
+					[ -200, 0, 150, 1 ]
+				],
+				"world_pos": [ -200, 0, 150 ],
+				"world_rot_quat": [ 0, 0, 0, 1 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_front_RGB.png",
+			"depth_filename": "cam_front_Depth.exr",
+			"normal_filename": "cam_front_Normal.exr",
+			"position_filename": "cam_front_Position.exr",
+			"semantic_filename": "cam_front_Semantic.png"
+		},
+		{
+			"camera_index": 1,
+			"camera_name": "cam_front_left",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 0.70710678118654724, 0.70710678118654779, 0, 0 ],
+					[ -0.70710678118654779, 0.70710678118654724, 0, 0 ],
+					[ 0, 0, 1, 0 ],
+					[ -141, -141, 150, 1 ]
+				],
+				"world_pos": [ -141, -141, 150 ],
+				"world_rot_quat": [ 0, 0, 0.38268343236509, 0.92387953251128652 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_front_left_RGB.png",
+			"depth_filename": "cam_front_left_Depth.exr",
+			"normal_filename": "cam_front_left_Normal.exr",
+			"position_filename": "cam_front_left_Position.exr",
+			"semantic_filename": "cam_front_left_Semantic.png"
+		},
+		{
+			"camera_index": 2,
+			"camera_name": "cam_left",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 2.2204460492503131e-16, 1.0000000000000002, 0, 0 ],
+					[ -1.0000000000000002, 2.2204460492503131e-16, 0, 0 ],
+					[ 0, 0, 1, 0 ],
+					[ 0, -200, 150, 1 ]
+				],
+				"world_pos": [ 0, -200, 150 ],
+				"world_rot_quat": [ 0, 0, 0.70710678118654746, 0.70710678118654768 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_left_RGB.png",
+			"depth_filename": "cam_left_Depth.exr",
+			"normal_filename": "cam_left_Normal.exr",
+			"position_filename": "cam_left_Position.exr",
+			"semantic_filename": "cam_left_Semantic.png"
+		},
+		{
+			"camera_index": 3,
+			"camera_name": "cam_back_left",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -0.70710678118654702, 0.70710678118654757, 0, 0 ],
+					[ -0.70710678118654757, -0.70710678118654702, 0, 0 ],
+					[ 0, 0, 1, 0 ],
+					[ 141, -141, 150, 1 ]
+				],
+				"world_pos": [ 141, -141, 150 ],
+				"world_rot_quat": [ 0, 0, 0.92387953251128663, 0.38268343236508984 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_back_left_RGB.png",
+			"depth_filename": "cam_back_left_Depth.exr",
+			"normal_filename": "cam_back_left_Normal.exr",
+			"position_filename": "cam_back_left_Position.exr",
+			"semantic_filename": "cam_back_left_Semantic.png"
+		},
+		{
+			"camera_index": 4,
+			"camera_name": "cam_back",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -0.99999999999999956, 1.224646799147353e-16, 0, 0 ],
+					[ -1.224646799147353e-16, -0.99999999999999956, 0, 0 ],
+					[ 0, 0, 1, 0 ],
+					[ 200, 0, 150, 1 ]
+				],
+				"world_pos": [ 200, 0, 150 ],
+				"world_rot_quat": [ 0, 0, 0.99999999999999989, 6.123233995736766e-17 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_back_RGB.png",
+			"depth_filename": "cam_back_Depth.exr",
+			"normal_filename": "cam_back_Normal.exr",
+			"position_filename": "cam_back_Position.exr",
+			"semantic_filename": "cam_back_Semantic.png"
+		},
+		{
+			"camera_index": 5,
+			"camera_name": "cam_back_right",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -0.70710678118654702, -0.70710678118654757, -0, 0 ],
+					[ 0.70710678118654757, -0.70710678118654702, 0, 0 ],
+					[ 0, -0, 1, 0 ],
+					[ 141, 141, 150, 1 ]
+				],
+				"world_pos": [ 141, 141, 150 ],
+				"world_rot_quat": [ 0, 0, -0.92387953251128663, 0.38268343236508984 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_back_right_RGB.png",
+			"depth_filename": "cam_back_right_Depth.exr",
+			"normal_filename": "cam_back_right_Normal.exr",
+			"position_filename": "cam_back_right_Position.exr",
+			"semantic_filename": "cam_back_right_Semantic.png"
+		},
+		{
+			"camera_index": 6,
+			"camera_name": "cam_right",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -2.2204460492503131e-16, -1.0000000000000002, -0, 0 ],
+					[ 1.0000000000000002, -2.2204460492503131e-16, 0, 0 ],
+					[ 0, -0, 1, 0 ],
+					[ 0, 200, 150, 1 ]
+				],
+				"world_pos": [ 0, 200, 150 ],
+				"world_rot_quat": [ 0, 0, -0.70710678118654757, 0.70710678118654768 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_right_RGB.png",
+			"depth_filename": "cam_right_Depth.exr",
+			"normal_filename": "cam_right_Normal.exr",
+			"position_filename": "cam_right_Position.exr",
+			"semantic_filename": "cam_right_Semantic.png"
+		},
+		{
+			"camera_index": 7,
+			"camera_name": "cam_front_right",
+			"fov": 45,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2472.154541015625, 0, 1024 ],
+					[ 0, 2472.154541015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2472.154541015625,
+				"fy": 2472.154541015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 45
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 0.70710678118654746, -0.70710678118654746, -0, 0 ],
+					[ 0.70710678118654746, 0.70710678118654746, 0, 0 ],
+					[ 0, -0, 1, 0 ],
+					[ -141, 141, 150, 1 ]
+				],
+				"world_pos": [ -141, 141, 150 ],
+				"world_rot_quat": [ 0, 0, -0.38268343236508978, 0.92387953251128663 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_front_right_RGB.png",
+			"depth_filename": "cam_front_right_Depth.exr",
+			"normal_filename": "cam_front_right_Normal.exr",
+			"position_filename": "cam_front_right_Position.exr",
+			"semantic_filename": "cam_front_right_Semantic.png"
+		},
+		{
+			"camera_index": 8,
+			"camera_name": "cam_upper_front",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 0.93969262078590843, 0, -0.34202014332566871, 0 ],
+					[ 0, 1, 0, 0 ],
+					[ 0.34202014332566871, 0, 0.93969262078590843, 0 ],
+					[ -170, 0, 220, 1 ]
+				],
+				"world_pos": [ -170, 0, 220 ],
+				"world_rot_quat": [ 0, 0.17364817766693036, 0, 0.98480775301220802 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_front_RGB.png",
+			"depth_filename": "cam_upper_front_Depth.exr",
+			"normal_filename": "cam_upper_front_Normal.exr",
+			"position_filename": "cam_upper_front_Position.exr",
+			"semantic_filename": "cam_upper_front_Semantic.png"
+		},
+		{
+			"camera_index": 9,
+			"camera_name": "cam_upper_front_left",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 0.66446302438867422, 0.66446302438867499, -0.3420201433256686, 0 ],
+					[ -0.70710678118654779, 0.70710678118654702, 0, 0 ],
+					[ 0.241844762647975, 0.24184476264797539, 0.93969262078590843, 0 ],
+					[ -120, -120, 220, 1 ]
+				],
+				"world_pos": [ -120, -120, 220 ],
+				"world_rot_quat": [ -0.06645228065352389, 0.16042999720436044, 0.37686961114246365, 0.90984372646640921 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_front_left_RGB.png",
+			"depth_filename": "cam_upper_front_left_Depth.exr",
+			"normal_filename": "cam_upper_front_left_Normal.exr",
+			"position_filename": "cam_upper_front_left_Position.exr",
+			"semantic_filename": "cam_upper_front_left_Semantic.png"
+		},
+		{
+			"camera_index": 10,
+			"camera_name": "cam_upper_left",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 2.2204460492503131e-16, 0.93969262078590854, -0.34202014332566877, 0 ],
+					[ -1.0000000000000002, 2.2204460492503131e-16, -2.7755575615628914e-17, 0 ],
+					[ 8.3266726846886741e-17, 0.34202014332566877, 0.93969262078590843, 0 ],
+					[ 0, -170, 220, 1 ]
+				],
+				"world_pos": [ 0, -170, 220 ],
+				"world_rot_quat": [ -0.12278780396897285, 0.12278780396897288, 0.69636424032001887, 0.69636424032001909 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_left_RGB.png",
+			"depth_filename": "cam_upper_left_Depth.exr",
+			"normal_filename": "cam_upper_left_Normal.exr",
+			"position_filename": "cam_upper_left_Position.exr",
+			"semantic_filename": "cam_upper_left_Semantic.png"
+		},
+		{
+			"camera_index": 11,
+			"camera_name": "cam_upper_back_left",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -0.66446302438867355, 0.66446302438867444, -0.34202014332566855, 0 ],
+					[ -0.70710678118654724, -0.70710678118654635, -1.3877787807814457e-17, 0 ],
+					[ -0.24184476264797505, 0.24184476264797522, 0.93969262078590843, 0 ],
+					[ 120, -120, 220, 1 ]
+				],
+				"world_pos": [ 120, -120, 220 ],
+				"world_rot_quat": [ -0.16042999720436044, 0.066452280653523835, 0.90984372646640921, 0.37686961114246337 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_back_left_RGB.png",
+			"depth_filename": "cam_upper_back_left_Depth.exr",
+			"normal_filename": "cam_upper_back_left_Normal.exr",
+			"position_filename": "cam_upper_back_left_Position.exr",
+			"semantic_filename": "cam_upper_back_left_Semantic.png"
+		},
+		{
+			"camera_index": 12,
+			"camera_name": "cam_upper_back",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -0.93969262078590776, 1.15079156022785e-16, -0.34202014332566866, 0 ],
+					[ -1.2246467991473527e-16, -0.99999999999999933, 0, 0 ],
+					[ -0.34202014332566866, 4.1885387376769911e-17, 0.93969262078590843, 0 ],
+					[ 170, 0, 220, 1 ]
+				],
+				"world_pos": [ 170, 0, 220 ],
+				"world_rot_quat": [ -0.17364817766693033, 1.0632884247878858e-17, 0.98480775301220791, 6.0302083125094881e-17 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_back_RGB.png",
+			"depth_filename": "cam_upper_back_Depth.exr",
+			"normal_filename": "cam_upper_back_Normal.exr",
+			"position_filename": "cam_upper_back_Position.exr",
+			"semantic_filename": "cam_upper_back_Semantic.png"
+		},
+		{
+			"camera_index": 13,
+			"camera_name": "cam_upper_back_right",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -0.66446302438867422, -0.66446302438867433, -0.34202014332566866, 0 ],
+					[ 0.70710678118654713, -0.70710678118654702, 2.7755575615628914e-17, 0 ],
+					[ -0.24184476264797528, -0.24184476264797516, 0.93969262078590843, 0 ],
+					[ 120, 120, 220, 1 ]
+				],
+				"world_pos": [ 120, 120, 220 ],
+				"world_rot_quat": [ 0.16042999720436049, 0.066452280653523807, -0.90984372646640943, 0.3768696111424632 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_back_right_RGB.png",
+			"depth_filename": "cam_upper_back_right_Depth.exr",
+			"normal_filename": "cam_upper_back_right_Normal.exr",
+			"position_filename": "cam_upper_back_right_Position.exr",
+			"semantic_filename": "cam_upper_back_right_Semantic.png"
+		},
+		{
+			"camera_index": 14,
+			"camera_name": "cam_upper_right",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 2.2204460492503131e-16, -0.93969262078590832, -0.34202014332566877, 0 ],
+					[ 0.99999999999999989, 2.2204460492503131e-16, -2.7755575615628914e-17, 0 ],
+					[ 8.3266726846886741e-17, -0.34202014332566877, 0.93969262078590843, 0 ],
+					[ 0, 170, 220, 1 ]
+				],
+				"world_pos": [ 0, 170, 220 ],
+				"world_rot_quat": [ 0.12278780396897283, 0.12278780396897288, -0.69636424032001887, 0.69636424032001898 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_right_RGB.png",
+			"depth_filename": "cam_upper_right_Depth.exr",
+			"normal_filename": "cam_upper_right_Normal.exr",
+			"position_filename": "cam_upper_right_Position.exr",
+			"semantic_filename": "cam_upper_right_Semantic.png"
+		},
+		{
+			"camera_index": 15,
+			"camera_name": "cam_upper_front_right",
+			"fov": 50,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 2195.97509765625, 0, 1024 ],
+					[ 0, 2195.97509765625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 2195.97509765625,
+				"fy": 2195.97509765625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 50
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ 0.66446302438867411, -0.66446302438867511, -0.3420201433256686, 0 ],
+					[ 0.70710678118654791, 0.7071067811865468, 0, 0 ],
+					[ 0.24184476264797489, -0.24184476264797541, 0.93969262078590843, 0 ],
+					[ -120, 120, 220, 1 ]
+				],
+				"world_pos": [ -120, 120, 220 ],
+				"world_rot_quat": [ 0.066452280653523904, 0.16042999720436041, -0.37686961114246376, 0.9098437264664091 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_upper_front_right_RGB.png",
+			"depth_filename": "cam_upper_front_right_Depth.exr",
+			"normal_filename": "cam_upper_front_right_Normal.exr",
+			"position_filename": "cam_upper_front_right_Position.exr",
+			"semantic_filename": "cam_upper_front_right_Semantic.png"
+		},
+		{
+			"camera_index": 16,
+			"camera_name": "cam_top",
+			"fov": 65,
+			"intrinsic":
+			{
+				"matrix": [
+					[ 1607.35791015625, 0, 1024 ],
+					[ 0, 1607.35791015625, 1024 ],
+					[ 0, 0, 1 ]
+				],
+				"fx": 1607.35791015625,
+				"fy": 1607.35791015625,
+				"cx": 1024,
+				"cy": 1024,
+				"fov_deg": 65
+			},
+			"extrinsic":
+			{
+				"cam_to_world": [
+					[ -2.2204460492503131e-16, 0, -1.0000000000000002, 0 ],
+					[ 0, 1, 0, 0 ],
+					[ 1.0000000000000002, 0, -2.2204460492503131e-16, 0 ],
+					[ 0, 0, 350, 1 ]
+				],
+				"world_pos": [ 0, 0, 350 ],
+				"world_rot_quat": [ 0, 0.70710678118654757, 0, 0.70710678118654768 ]
+			},
+			"resolution": [ 2048, 2048 ],
+			"rgb_filename": "cam_top_RGB.png",
+			"depth_filename": "cam_top_Depth.exr",
+			"normal_filename": "cam_top_Normal.exr",
+			"position_filename": "cam_top_Position.exr",
+			"semantic_filename": "cam_top_Semantic.png"
+		}
+	]
+}
