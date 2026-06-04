@@ -70,22 +70,25 @@ Depth and position outputs can be reconstructed into 3D point clouds to verify g
 | --- | --- |
 | ![Position point cloud 1](Plugins/RenderCoreTools/imgs/ID4_position转3D点云_screenshot1.png) | ![Position point cloud 2](Plugins/RenderCoreTools/imgs/ID4_position转3D点云_screenshot2.png) |
 
-Animated multi-view captures are included as video assets:
+Animated multi-view captures are included as inline GIF previews. The original MP4 files are kept next to the GIFs for full-quality playback.
 
-- [ID4 RGB multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/RGB_video.mp4)
-- [ID4 Depth multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Depth_video.mp4)
-- [ID4 Normal multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Normal_video.mp4)
-- [ID4 Position multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Position_video.mp4)
-- [ID4 Semantic multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Semantic_video.mp4)
+| RGB | Depth |
+| --- | --- |
+| ![ID4 RGB multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/RGB_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/RGB_video.mp4) | ![ID4 Depth multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Depth_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Depth_video.mp4) |
+
+| Normal | Position | Semantic |
+| --- | --- | --- |
+| ![ID4 Normal multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Normal_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Normal_video.mp4) | ![ID4 Position multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Position_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Position_video.mp4) | ![ID4 Semantic multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Semantic_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Semantic_video.mp4) |
 
 The same pipeline can render different MetaHuman identities:
 
-- [MetaHuman ID1](Plugins/RenderCoreTools/imgs/metahuman_ID1.mp4)
-- [MetaHuman ID2](Plugins/RenderCoreTools/imgs/metahuman_ID2.mp4)
-- [MetaHuman ID3](Plugins/RenderCoreTools/imgs/metahuman_ID3.mp4)
-- [ID1 RGB multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID1/RGB_video.mp4)
-- [ID1 depth point-cloud validation](Plugins/RenderCoreTools/imgs/ID1_depth转换为3D点云可视化.mp4)
-- [ID1 position point-cloud validation](Plugins/RenderCoreTools/imgs/ID1_position转换为3D点云可视化.mp4)
+| MetaHuman ID1 | MetaHuman ID2 | MetaHuman ID3 |
+| --- | --- | --- |
+| ![MetaHuman ID1](Plugins/RenderCoreTools/imgs/metahuman_ID1.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/metahuman_ID1.mp4) | ![MetaHuman ID2](Plugins/RenderCoreTools/imgs/metahuman_ID2.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/metahuman_ID2.mp4) | ![MetaHuman ID3](Plugins/RenderCoreTools/imgs/metahuman_ID3.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/metahuman_ID3.mp4) |
+
+| ID1 RGB multi-view animation | ID1 depth point-cloud validation | ID1 position point-cloud validation |
+| --- | --- | --- |
+| ![ID1 RGB multi-view animation](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID1/RGB_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID1/RGB_video.mp4) | ![ID1 depth point-cloud validation](Plugins/RenderCoreTools/imgs/ID1_depth转换为3D点云可视化.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/ID1_depth转换为3D点云可视化.mp4) | ![ID1 position point-cloud validation](Plugins/RenderCoreTools/imgs/ID1_position转换为3D点云可视化.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/ID1_position转换为3D点云可视化.mp4) |
 
 ## Environment
 
@@ -310,4 +313,3 @@ RunUAT.bat BuildPlugin `
 - For high-resolution dome captures, increase `--hold-seconds` if the client connection must remain open longer.
 - Depth and position maps are exported as high-precision EXR files and can be reconstructed into 3D point clouds for validation.
 - Semantic rendering uses vertex-color or material replacement paths depending on the available MetaHuman mesh and material setup.
-

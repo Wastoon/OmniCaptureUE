@@ -70,22 +70,25 @@ OmniCaptureUE/
 | --- | --- |
 | ![Position 点云 1](Plugins/RenderCoreTools/imgs/ID4_position转3D点云_screenshot1.png) | ![Position 点云 2](Plugins/RenderCoreTools/imgs/ID4_position转3D点云_screenshot2.png) |
 
-如果导入连续 MetaHuman 动画资产，例如面部或肢体动画序列，也可以渲染连续的多视角真值视频：
+如果导入连续 MetaHuman 动画资产，例如面部或肢体动画序列，也可以渲染连续的多视角真值视频。README 中使用 GIF 直接预览动画，原始 MP4 文件仍保留在同目录中，便于查看完整视频质量。
 
-- [ID4 RGB 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/RGB_video.mp4)
-- [ID4 Depth 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Depth_video.mp4)
-- [ID4 Normal 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Normal_video.mp4)
-- [ID4 Position 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Position_video.mp4)
-- [ID4 Semantic 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Semantic_video.mp4)
+| RGB | Depth |
+| --- | --- |
+| ![ID4 RGB 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/RGB_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/RGB_video.mp4) | ![ID4 Depth 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Depth_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Depth_video.mp4) |
+
+| Normal | Position | Semantic |
+| --- | --- | --- |
+| ![ID4 Normal 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Normal_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Normal_video.mp4) | ![ID4 Position 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Position_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Position_video.mp4) | ![ID4 Semantic 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Semantic_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID4/Semantic_video.mp4) |
 
 系统也支持替换不同身份的 MetaHuman，例如 ID1、ID2、ID3：
 
-- [MetaHuman ID1](Plugins/RenderCoreTools/imgs/metahuman_ID1.mp4)
-- [MetaHuman ID2](Plugins/RenderCoreTools/imgs/metahuman_ID2.mp4)
-- [MetaHuman ID3](Plugins/RenderCoreTools/imgs/metahuman_ID3.mp4)
-- [ID1 RGB 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID1/RGB_video.mp4)
-- [ID1 depth 转 3D 点云验证](Plugins/RenderCoreTools/imgs/ID1_depth转换为3D点云可视化.mp4)
-- [ID1 position 转 3D 点云验证](Plugins/RenderCoreTools/imgs/ID1_position转换为3D点云可视化.mp4)
+| MetaHuman ID1 | MetaHuman ID2 | MetaHuman ID3 |
+| --- | --- | --- |
+| ![MetaHuman ID1](Plugins/RenderCoreTools/imgs/metahuman_ID1.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/metahuman_ID1.mp4) | ![MetaHuman ID2](Plugins/RenderCoreTools/imgs/metahuman_ID2.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/metahuman_ID2.mp4) | ![MetaHuman ID3](Plugins/RenderCoreTools/imgs/metahuman_ID3.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/metahuman_ID3.mp4) |
+
+| ID1 RGB 多视角动画 | ID1 depth 转 3D 点云验证 | ID1 position 转 3D 点云验证 |
+| --- | --- | --- |
+| ![ID1 RGB 多视角动画](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID1/RGB_video.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/multiview_rendered_animation_ID1/RGB_video.mp4) | ![ID1 depth 转 3D 点云验证](Plugins/RenderCoreTools/imgs/ID1_depth转换为3D点云可视化.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/ID1_depth转换为3D点云可视化.mp4) | ![ID1 position 转 3D 点云验证](Plugins/RenderCoreTools/imgs/ID1_position转换为3D点云可视化.gif)<br>[MP4](Plugins/RenderCoreTools/imgs/ID1_position转换为3D点云可视化.mp4) |
 
 ## 环境配置
 
@@ -310,4 +313,3 @@ RunUAT.bat BuildPlugin `
 - 高分辨率 dome 序列渲染耗时较长，可以根据机器性能调整 `--dome-batch-size`、`--resolution` 和 `--hold-seconds`。
 - Depth 和 Position 以高精度 EXR 输出，可以恢复为 3D 点云，用于验证几何准确性。
 - Semantic 渲染会根据 MetaHuman mesh 与材质状态，使用 vertex color 或材质替换路径生成语义图。
-
